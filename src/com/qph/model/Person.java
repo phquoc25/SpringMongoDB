@@ -3,6 +3,7 @@ package com.qph.model;
 
 public class Person {
 	
+	private String idNumber;
 	private String firstName;
 	private String lastName;	
 	private Vehicle vehicle;
@@ -32,6 +33,14 @@ public class Person {
 
 	public void setVehicle(Vehicle vehicle) {
 		this.vehicle = vehicle;
+	}
+
+	public String getIdNumber() {
+		return idNumber;
+	}
+
+	public void setIdNumber(String idNumber) {
+		this.idNumber = idNumber;
 	}
 
 }

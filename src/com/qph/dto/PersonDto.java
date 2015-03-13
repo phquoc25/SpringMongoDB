@@ -1,6 +1,7 @@
 package com.qph.dto;
 
 public class PersonDto {
+	private String idNumber;
 	private String firstName;
 	private String lastName;
 	private String vehicleLicencePlate;
@@ -30,6 +31,14 @@ public class PersonDto {
 
 	public void setVehicleLicencePlate(String vehicleLicencePlate) {
 		this.vehicleLicencePlate = vehicleLicencePlate;
+	}
+
+	public String getIdNumber() {
+		return idNumber;
+	}
+
+	public void setIdNumber(String idNumber) {
+		this.idNumber = idNumber;
 	}
 	
 }
